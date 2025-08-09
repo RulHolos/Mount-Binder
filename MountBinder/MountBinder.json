@@ -1,0 +1,13 @@
+{
+    "Author": "Rül Hölos",
+    "Name": "Mount Binder",
+    "RepoUrl": "https://github.com/RulHolos/Mount-Binder",
+    "Punchline": "Bind one or multiple keys to one or multiple mounts!",
+    "Description": "Use a keyboard key to call your mounts. This way, you don't waste precious hotbar slots!",
+    "Tags": [
+        "mounts",
+        "mount",
+        "keybind"
+    ],
+    "IconUrl": "https://github.com/RulHolos/Mount-Binder/blob/master/Mount-Binder/images/icon.png"
+}

@@ -1,0 +1,20 @@
+[
+    {
+        "Author": "Rül Hölos",
+        "Name": "Mount Binder",
+        "InternalName": "MountBinder",
+        "Punchline": "Yes",
+        "Description": "No",
+        "AssemblyVersion": "1.0.0.0",
+        "TestingAssemblyVersion": "1.0.0.0",
+        "RepoUrl": "https://github.com/RulHolos/Mount-Binder",
+        "ApplicableVersion": "any",
+        "DalamudApiLevel": 13,
+        "Tags": [
+            "mounts",
+            "mount",
+            "keybind"
+        ],
+        "IconUrl": "https://raw.githubusercontent.com/RulHolos/Mount-Binder/master/images/icon.png",
+    }
+]
