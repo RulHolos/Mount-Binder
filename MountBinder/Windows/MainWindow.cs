@@ -23,7 +23,7 @@ public class MainWindow : Window, IDisposable
     private List<VirtualKey> currentCapture = [];
 
     public MainWindow()
-        : base("Mount Binder Configuration", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
+        : base($"Mount Binder {MountBinder.Configuration.GetVersion()}", ImGuiWindowFlags.NoScrollbar | ImGuiWindowFlags.NoScrollWithMouse)
     {
         SizeConstraints = new WindowSizeConstraints
         {
