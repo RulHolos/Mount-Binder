@@ -13,6 +13,10 @@ using static FFXIVClientStructs.FFXIV.Client.UI.UIInputData;
 
 namespace MountBinder;
 
+/// <summary>
+/// The icon for this plugin is really "graphic design is my passion" tier.
+/// </summary>
+
 public class MountBinder : IDalamudPlugin
 {
     public static MountBinder Plugin { get; private set; }
