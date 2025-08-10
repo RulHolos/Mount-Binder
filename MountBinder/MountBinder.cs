@@ -141,6 +141,7 @@ public class MountBinder : IDalamudPlugin
             {
                 MountBinding cfg = Configuration.Binds[i];
 
+                // Ignore NO_KEY since it ALMOST crashes Dalamud.
                 if (cfg.Keys == null || cfg.Keys.Length == 0 || cfg.Keys.Contains(VirtualKey.NO_KEY))
                     continue;
 

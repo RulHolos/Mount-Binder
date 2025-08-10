@@ -52,6 +52,8 @@ public class MainWindow : Window, IDisposable
 
         for (int i = 0; i < MountBinder.Configuration.Binds.Count; i++)
         {
+            ImGui.PushID(i);
+
             MountBinding cfg = MountBinder.Configuration.Binds[i];
 
             static string formatName(Mount t) => $"{t.Singular}";
@@ -95,6 +97,8 @@ public class MainWindow : Window, IDisposable
             {
                 ImGui.Text(string.Join("+", cfg.Keys));
             }
+
+            ImGui.PopID();
         }
     }
 
